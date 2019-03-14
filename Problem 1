@@ -1,0 +1,21 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main ()
+{
+	int box, sideline, premium, GeneralAdmission;
+	
+	cout << " Ticket Type		 Ticket Price		Ticket Sold " << endl;
+	cout << " box			$250			5750 " << endl;
+	cout <<	" sideline		$100			28000 " << endl;
+	cout <<	" premium		$50			35750 " << endl;
+	cout <<	" GeneralAdmission	$25			18750 " << endl;
+
+	cout << "total tickets sold: " << 5750 + 28000 + 35750 + 18750 << "tickets" << endl;
+	cout << "total sales: $" << (250 * 5750)+(100 * 28000)+(50 * 35750)+(25 * 18750) << endl;
+	
+	_getch();
+	return 0;
+}
